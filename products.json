@@ -10,7 +10,8 @@
     "funding": null,
     "usage_data": "14,203 waitlist signups. Self-hosted cards live.",
     "added": "2026-02-28",
-    "notes": "OpenClaw-native. Stripe-powered. Targets individual bot owners."
+    "notes": "OpenClaw-native. Stripe-powered. Targets individual bot owners.",
+    "network_partners": null
   },
   {
     "id": "proxy",
@@ -23,7 +24,8 @@
     "funding": null,
     "usage_data": null,
     "added": "2026-02-28",
-    "notes": "Published comprehensive agent payments landscape report. Strong MCP integration story."
+    "notes": "Published comprehensive agent payments landscape report. Strong MCP integration story.",
+    "network_partners": null
   },
   {
     "id": "crossmint",
@@ -36,7 +38,10 @@
     "funding": null,
     "usage_data": null,
     "added": "2026-02-28",
-    "notes": "Visa Intelligent Platform partner. Also does stablecoin wallets, x402, and credential issuance. Very broad offering."
+    "notes": "Visa Intelligent Platform partner. Also does stablecoin wallets, x402, and credential issuance. Very broad offering.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   },
   {
     "id": "skyfire",
@@ -49,7 +54,10 @@
     "funding": "Backed by a16z CSX, Coinbase Ventures",
     "usage_data": "Visa pilot partner. Apify integration live.",
     "added": "2026-02-28",
-    "notes": "Focus on agent identity layer. KYA protocol is unique differentiator. Powers Consumer Reports agent demo."
+    "notes": "Focus on agent identity layer. KYA protocol is unique differentiator. Powers Consumer Reports agent demo.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   },
   {
     "id": "nekuda",
@@ -62,7 +70,10 @@
     "funding": "$5M from Madrona, Amex Ventures, Visa Ventures (May 2025)",
     "usage_data": "Pilots with Gensmo, Price.com, Henry Labs",
     "added": "2026-02-28",
-    "notes": "Strong VC backing from strategic investors. '20 lines of code' integration pitch."
+    "notes": "Strong VC backing from strategic investors. '20 lines of code' integration pitch.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   },
   {
     "id": "payos",
@@ -75,7 +86,11 @@
     "funding": null,
     "usage_data": "First live MC Agentic Token transaction. BeyondStyle/Jomashop pilot.",
     "added": "2026-02-28",
-    "notes": "Token-based approach vs card-based. Broad merchant acceptance but shared credential risk."
+    "notes": "Token-based approach vs card-based. Broad merchant acceptance but shared credential risk.",
+    "network_partners": [
+      "Visa Intelligent Commerce",
+      "Mastercard Agent Pay"
+    ]
   },
   {
     "id": "prava",
@@ -88,7 +103,10 @@
     "funding": null,
     "usage_data": null,
     "added": "2026-02-28",
-    "notes": "Multi-agent wallet architecture. Good for platforms running many agents simultaneously."
+    "notes": "Multi-agent wallet architecture. Good for platforms running many agents simultaneously.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   },
   {
     "id": "visa-intelligent-commerce",
@@ -101,7 +119,10 @@
     "funding": "N/A (Visa)",
     "usage_data": "Hundreds of secure agent-initiated transactions completed (Dec 2025). Predicts millions of consumers by 2026 holiday.",
     "added": "2026-02-28",
-    "notes": "The network-level enabler. TAP launched Oct 2025."
+    "notes": "The network-level enabler. TAP launched Oct 2025.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   },
   {
     "id": "mastercard-agent-pay",
@@ -114,7 +135,10 @@
     "funding": "N/A (Mastercard)",
     "usage_data": "Available to all US cardholders",
     "added": "2026-02-28",
-    "notes": "Broad rollout. PayOS first to demo live MC Agentic Token."
+    "notes": "Broad rollout. PayOS first to demo live MC Agentic Token. March 5, 2026: launched Verifiable Intent, an open-source cryptographic audit trail framework linking consumer identity, agent instructions, and transaction outcome into tamper-resistant records. Uses Selective Disclosure for privacy. Interoperates with Google UCP/AP2. March 4, 2026: first live agentic transaction in Singapore with DBS and UOB (ride booking via hoppa/CardInfoLink). Also completed first live end-to-end AI agent payment in Europe with Santander (March 2026). Expanding APAC with regional AI Centre of Excellence in Singapore. Live in Australia, New Zealand, India as well. March 11, 2026: launched Mastercard Agent Suite, an advisory/consulting offering (4,000+ advisors) helping businesses build, test, and deploy custom AI agents. Available Q2 2026. Focus on product discovery for banks and conversational shopping for merchants. Complements Agent Pay.",
+    "network_partners": [
+      "Mastercard Agent Pay"
+    ]
   },
   {
     "id": "moonpay-agents",
@@ -127,7 +151,8 @@
     "funding": "MoonPay (est. 2019, 500+ enterprise customers, 30M+ users)",
     "usage_data": null,
     "added": "2026-03-02",
-    "notes": "Crypto-native on-ramp for agents. Non-custodial wallets stored on user device. x402 compatible. Bridges fiat-to-crypto for agent economy."
+    "notes": "Crypto-native on-ramp for agents. Non-custodial wallets stored on user device. x402 compatible. Bridges fiat-to-crypto for agent economy.",
+    "network_partners": null
   },
   {
     "id": "stripe-spt",
@@ -140,7 +165,11 @@
     "funding": "N/A (Stripe)",
     "usage_data": "Adopted by Etsy, URBN (Anthropologie, Free People, Urban Outfitters). Klarna + Affirm BNPL integration launched March 3, 2026.",
     "added": "2026-03-04",
-    "notes": "Launched Oct 2025. Major expansion March 3, 2026: added Visa + Mastercard agentic network tokens and BNPL (Klarna, Affirm). Positions Stripe as the unified aggregator across all agentic payment rails."
+    "notes": "Launched Oct 2025. Major expansion March 3, 2026: added Visa + Mastercard agentic network tokens and BNPL (Klarna, Affirm). Positions Stripe as the unified aggregator across all agentic payment rails.",
+    "network_partners": [
+      "Visa Intelligent Commerce",
+      "Mastercard Agent Pay"
+    ]
   },
   {
     "id": "google-ucp",
@@ -153,7 +182,8 @@
     "funding": "N/A (Google)",
     "usage_data": "Developed with Shopify, Etsy, Wayfair, Target, Walmart. Splitit, dozens of retail partners endorsing. Open-source: github.com/Universal-Commerce-Protocol/ucp",
     "added": "2026-03-06",
-    "notes": "Announced January 2026. Help docs and merchant onboarding published March 2026. Roadmap includes multi-item carts, account linking for loyalty, post-purchase tracking/returns. Positions Google as the agentic commerce surface layer (discovery + checkout) while merchants keep customer data. Significant because it bridges AI agent surfaces directly to merchant checkout, complementing card-level solutions from Visa/MC/Stripe."
+    "notes": "Announced January 2026. Help docs and merchant onboarding published March 2026. Roadmap includes multi-item carts, account linking for loyalty, post-purchase tracking/returns. Positions Google as the agentic commerce surface layer (discovery + checkout) while merchants keep customer data. Significant because it bridges AI agent surfaces directly to merchant checkout, complementing card-level solutions from Visa/MC/Stripe.",
+    "network_partners": null
   },
   {
     "id": "agentcard",
@@ -166,6 +196,37 @@
     "funding": null,
     "usage_data": null,
     "added": "2026-03-07",
-    "notes": "Developer-first: two CLI commands to issue a card. Single-use cards limit blast radius per task. Native MCP integration (agent-cards setup-mcp). Stripe-powered checkout. Founded by @keyserfaty."
+    "notes": "Developer-first: two CLI commands to issue a card. Single-use cards limit blast radius per task. Native MCP integration (agent-cards setup-mcp). Stripe-powered checkout. Founded by @keyserfaty.",
+    "network_partners": null
+  },
+  {
+    "id": "jpmorgan-mirakl",
+    "name": "J.P. Morgan Payments + Mirakl Nexus",
+    "description": "Enterprise agentic commerce platform combining Mirakl's Nexus (AI-optimized product catalogs, agent discovery, pricing/inventory access) with J.P. Morgan Payments' infrastructure (secure payment processing, tokenization for agent transactions, fraud protection). Enables AI agents to discover, evaluate, and purchase products autonomously on JPM's payment rails. Verified agent identity, user-controlled permissions, bank-grade risk management.",
+    "website": "https://www.mirakl.com/news/mirakl-and-j-p-morgan-payments-to-power-agentic-commerce-at-enterprise-scale",
+    "twitter": "https://x.com/Mirakl",
+    "category": "Enterprise Agent Payment Infrastructure",
+    "status": "Closed Beta (broader availability 2026)",
+    "funding": "N/A (J.P. Morgan + Mirakl)",
+    "usage_data": "Working with select retailers and merchants in closed beta.",
+    "added": "2026-03-13",
+    "notes": "Announced March 10, 2026. First major bank building dedicated agent payment infrastructure. Mirakl is a French commerce software firm (marketplaces, dropship). JPM's Mike Lozanoff (global head of merchant services) leading. Positions JPM as the bank-grade payment layer for agentic commerce, complementing network-level solutions from Visa/MC.",
+    "network_partners": null
+  },
+  {
+    "id": "ramp-agent-cards",
+    "name": "Ramp Agent Cards",
+    "description": "Corporate cards built for AI agents from Ramp, the leading corporate spend management platform. Agents get real spending ability governed by hard spend limits, merchant controls, and full transaction visibility. Credentials generated via API, MCP, or CLI. Built on Visa Trusted Agent Protocol (Visa Intelligent Commerce).",
+    "website": "https://agents.ramp.com/cards",
+    "twitter": "https://x.com/RampLabs",
+    "category": "Agent Card Issuer",
+    "status": "Live",
+    "funding": "N/A (Ramp, valued at $13B+, 30K+ business customers)",
+    "usage_data": null,
+    "added": "2026-03-15",
+    "notes": "Announced March 11, 2026. Ramp is one of the largest corporate card/spend management platforms. Fits into Ramp's broader agentic stack (AP Agents launched Oct 2025). Flexible integration: API, MCP, and CLI for credential generation. Uses Visa Intelligent Commerce / Trusted Agent Protocol. Significant because it brings agent cards to Ramp's massive existing enterprise customer base.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ]
   }
 ]
