@@ -228,5 +228,19 @@
     "network_partners": [
       "Visa Intelligent Commerce"
     ]
+  },
+  {
+    "id": "privacy",
+    "name": "Privacy.com",
+    "description": "Virtual cards with card-level spending controls for AI agents. Spending limits (daily/monthly/annual), merchant-locked cards, single-use cards, category-locked cards (e.g. travel only). Controls enforced at card authorization level before transaction is approved. Stablecoin-funded cards (USDC) coming soon.",
+    "website": "https://privacy.com",
+    "twitter": "https://x.com/privacyhq",
+    "category": "Agent Card Issuer",
+    "status": "Live",
+    "funding": null,
+    "usage_data": null,
+    "added": "2026-03-15",
+    "notes": "Consumer-friendly positioning vs developer-first competitors. Works anywhere cards are accepted, no merchant integration needed. Published OpenClaw-specific setup guide. Stablecoin-funded cards (USDC) on roadmap, bridging crypto and traditional rails.",
+    "network_partners": null
   }
 ]
