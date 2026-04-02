@@ -380,5 +380,67 @@
       "CDP SDK",
       "API"
     ]
+  },
+  {
+    "id": "circle-programmable-wallets",
+    "name": "Circle Programmable Wallets",
+    "description": "USDC-native programmable wallets for AI agents. Developers embed USDC transactions directly into AI code for autonomous API payments, compute costs, and nanopayments. Includes USDC Nanopayments (gas-free transfers as small as $0.000001) on testnet. Integrates with x402 and Circle Gateway.",
+    "website": "https://developers.circle.com",
+    "twitter": "https://x.com/circle",
+    "category": "Agent Card Issuer",
+    "status": "Live",
+    "funding": "N/A (Circle, $9B valuation)",
+    "usage_data": "USDC Nanopayments on testnet; Circle joined Agentic AI Foundation as Gold Member",
+    "added": "2026-03-08",
+    "notes": "USDC issuer building the full agent payment stack: programmable wallets + nanopayments + x402 integration + Circle Gateway. One of the most comprehensive stablecoin-native agent payment platforms. Partnered with Stripe for stablecoin payment rails.",
+    "network_partners": null,
+    "positioning": "Developers building on USDC/stablecoin payment rails",
+    "integrations": [
+      "API",
+      "SDK",
+      "MCP course",
+      "x402 protocol"
+    ]
+  },
+  {
+    "id": "bvnk",
+    "name": "BVNK",
+    "description": "Enterprise stablecoin payments infrastructure enabling fast, compliant global payments and digital asset settlement. Integrated with Visa Direct for stablecoin payouts. Being acquired by Mastercard for up to $1.8B to bridge on-chain payments and fiat rails.",
+    "website": "https://bvnk.com",
+    "twitter": "https://x.com/bvnk",
+    "category": "Agent Card Issuer",
+    "status": "Live",
+    "funding": "Acquired by Mastercard for up to $1.8B (announced March 2026)",
+    "usage_data": "Visa Direct partnership; Mastercard acquisition pending",
+    "added": "2026-03-17",
+    "notes": "Highest-value acquisition in agentic payments to date. Visa integrated BVNK into Visa Direct. Now being acquired by Mastercard \u2014 will become Mastercard stablecoin infrastructure backbone. Critical to track as it will power both Visa and Mastercard stablecoin agent rails.",
+    "network_partners": [
+      "Visa Intelligent Commerce"
+    ],
+    "positioning": "Enterprise and institutional stablecoin payments",
+    "integrations": [
+      "API",
+      "Visa Direct",
+      "Enterprise"
+    ]
+  },
+  {
+    "id": "plaid-ai",
+    "name": "Plaid for AI",
+    "description": "Financial infrastructure layer for AI companies \u2014 identity verification, bank-linked payments, fraud prevention, and real-time account data. Enables AI agents to verify user identity and initiate bank transfers via ACH on behalf of users.",
+    "website": "https://plaid.com/industries/ai/",
+    "twitter": "https://x.com/plaid",
+    "category": "Agent Card Issuer",
+    "status": "Live",
+    "funding": "N/A (Plaid, $13.4B valuation)",
+    "usage_data": null,
+    "added": "2026-03-30",
+    "notes": "Plaid is the de facto bank connectivity layer for fintech. Their AI-specific product page signals deliberate positioning for the agent economy. Key differentiator: ACH/bank rails vs card rails \u2014 different risk profile, higher limits, lower cost.",
+    "network_partners": null,
+    "positioning": "AI companies needing bank account access and identity verification",
+    "integrations": [
+      "API",
+      "SDK"
+    ]
   }
 ]
